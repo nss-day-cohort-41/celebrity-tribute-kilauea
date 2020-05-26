@@ -1,0 +1,32 @@
+
+.mainHeader {
+    display:flex;
+}
+
+.mainHeader img{
+    width:15em;
+}
+
+.mainHeader h1 {
+    margin-top: 3em;
+    height: 1em;
+    margin-bottom: 0;
+}
+
+.mainNav {
+    display: flex;
+    list-style:none;
+}
+
+.mainNav li {
+    margin-right: 1em;
+}
+
+.mainFooter ul {
+    display: flex;
+    list-style:none;
+}
+
+.mainFooter ul li {
+    margin-right: 1em;
+}
