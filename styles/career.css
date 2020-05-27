@@ -1,3 +1,20 @@
-.main-intro {
-    background-color: black;
+.main--intro {
+    display: flex;
 }
+
+.main--image {
+    display: flex;
+    flex: 1;
+    /* align-content: flex-end; */
+}
+
+.main--image img {
+    height: auto;
+}
+
+.main--intro-content {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+/*  */
