@@ -1,36 +1,35 @@
 
-img.muralpic{
+img.muralPic{
     width: 100%;
     height: auto;
 }
 
-.mainHeader{
+.mainHeaderNews{
     vertical-align: text-bottom;
 }
 
-.mainNav{
+/* .mainNav{
     display: flex;
     justify-content: center;
     text-decoration: none;
-}
+} */
 
 a{
     text-decoration: none;
     color: black;
 }
 
-body{
+.newsDean{
     font-family: 'Times New Roman', Times, serif;
-    background-color: lightcyan;
 }
 
-h2{
+.newsEvents{
     font-style: oblique;
     text-align-last: center;
     font-size: 48px;
-}    
+}    s
 
-h5{
+.deanQuote{
     text-align: center;
     font-style: italic;
     font-size: 18px;
