@@ -1,0 +1,39 @@
+
+img.muralpic{
+    width: 100%;
+    height: auto;
+}
+
+.mainHeader{
+    vertical-align: text-bottom;
+}
+
+.mainNav{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightcyan;
+}
+
+h2{
+    font-style: oblique;
+    text-align-last: center;
+    font-size: 48px;
+}    
+
+h5{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+
