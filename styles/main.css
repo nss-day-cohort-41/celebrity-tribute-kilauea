@@ -1,3 +1,7 @@
+@import "./career.css";
+@import "./home.css";
+@import "./news.css";
+@import "./personal.css";
 
 .mainHeader {
     display:flex;
