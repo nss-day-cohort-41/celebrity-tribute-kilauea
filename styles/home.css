@@ -1,0 +1,42 @@
+#index {
+display: flex;
+flex-direction: column;
+align-content: center;
+
+}
+
+.portrait {
+    justify-content: center;
+}
+
+.portrait img {
+    max-width: 30em;
+}
+
+.portrait h2 {
+font-size: xx-large;
+}
+
+.portrait h3 {
+    font-size: x-large;
+margin-bottom: -0.5em;
+}
+
+.associates p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 60em;
+    font-size: large;
+}
+
+.associates li {
+    font-style: italic;
+}
+
+.restingPlace h2 {
+    font-size: x-large;
+}
+.restingPlace img {
+    max-width: 30em;
+}
