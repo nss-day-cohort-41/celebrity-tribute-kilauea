@@ -1,42 +1,183 @@
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+
+  }
 #index {
 display: flex;
 flex-direction: column;
 align-content: center;
+opacity: 0.75;
 
 }
-
-.portrait {
+.row-index {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 4em;
+}
+.AKADeanMartin {
+    display: flex;
     justify-content: center;
+   flex-direction: column;
+   margin-right: 2em;
+   min-width: 20em;
+    background-color:	#9bdbc1;
+    width: 300px;
+    border: 10px solid	#cc2d30;
+    border-radius: 2em;
+    padding: 50px;
+    margin: 20px;
+    padding-bottom: 4em;
+}
+.portrait img{
+ 
+    max-width: 20em;
+    max-height: 100%;
+    flex:100%;
 }
 
-.portrait img {
-    max-width: 30em;
+
+h2 {
+font-size: x-large;
+
 }
 
-.portrait h2 {
-font-size: xx-large;
-}
-
-.portrait h3 {
+h3 {
     font-size: x-large;
-margin-bottom: -0.5em;
+}
+
+.associates_heading {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    background-color: #9bdbc1;
+    width: auto;
+    border: 10px solid	#cc2d30;
+    border-radius: 2em;
+    padding: 10px;
+    margin: 10px;
+}
+.associates {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+    font-size: large;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .associates p {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 60em;
-    font-size: large;
+align-self: flex-end;
 }
 
 .associates li {
     font-style: italic;
 }
 
-.restingPlace h2 {
-    font-size: x-large;
+.RatPack {
+    background-color:	#9bdbc1;
+    width: 300px;
+    border: 10px solid	#cc2d30;
+    border-radius: 2em;
+    padding: 50px;
+    margin: 20px;
+}
+.RatPack strong {
+    font-size: 2em;
+}
+
+.JerryLewis {
+    background-color:	#9bdbc1;
+    width: 300px;
+    border: 10px solid	#cc2d30;
+    border-radius: 2em;
+    padding: 50px;
+    margin: 20px;
+    padding-bottom: 4em;
+}
+
+.JerryLewis strong {
+    font-size: 2em;
+}
+
+.OtherArtist {
+    background-color:	#9bdbc1;
+    width: 300px;
+    border: 10px solid	#cc2d30;
+    border-radius: 2em;
+    padding: 50px;
+    margin: 20px;
+}
+
+.OtherArtist strong {
+    font-size: 2em;
+}
+
+.restingPlace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color:	#9bdbc1;
+    border: 10px solid	#cc2d30;
+    border-radius: 2em;
+    padding: 50px;
+    margin: 20px;
+    
+}
+.restingPlace h3 {
+    font-size: xx-large;
+}
+
+.restingPlace p {
+    display: flex;
+    align-self: center;
+
 }
 .restingPlace img {
     max-width: 30em;
+}
+
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+}
+#vidtop-content {
+    top: 0;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground { width: 300%; left: -100%; }
+}
+
+.navbackground {
+    background-color: rgba(170, 221, 150, 0.25);
+    width: auto;
+    border: 10px solid	#cc2d30;
+    border-radius: 2em;
+    padding: 10px;
+    margin: 10px;
+}
+
+.mainFooter {
+    background-color: rgba(170, 221, 150, 0.25);
+    width: auto;
+    border: 10px solid	#cc2d30;
+    border-radius: 2em;
+    padding: 10px;
+    margin: 10px;  
 }
