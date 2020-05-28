@@ -173,6 +173,11 @@ align-self: flex-end;
     margin: 10px;
 }
 
+.mainNav ul{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
 .mainFooter {
     background-color: rgba(170, 221, 150, 0.25);
     width: auto;
