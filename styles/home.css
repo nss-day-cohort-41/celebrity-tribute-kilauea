@@ -4,6 +4,57 @@ html, body {
     padding: 10px;
 
   }
+
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+}
+
+#vidtop-content {
+    top: 0;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground { height: 300%; top: -100%; }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground { width: 300%; left: -100%; }
+}
+
+.navbackground {
+    background-color: rgba(170, 221, 150, 0.25);
+    width: auto;
+    border: 10px solid	#cc2d30;
+    border-radius: 2em;
+    padding: 10px;
+    margin: 10px;
+}   
+
+.mainNav a:hover:not(.active) {
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    font-size: larger;
+    border:1px solid white;
+    padding: 0.5em;
+}
+
+.active {
+    background-color: white;
+    opacity: 0.5;
+}
+
 #index {
 display: flex;
 flex-direction: column;
@@ -11,12 +62,14 @@ align-content: center;
 opacity: 0.75;
 
 }
+
 .row-index {
     display: flex;
 flex-direction: row;
 justify-content: center;
 margin-top: 4em;
 }
+
 .AKADeanMartin {
     display: flex;
     justify-content: center;
@@ -31,6 +84,7 @@ margin-top: 4em;
     margin: 20px;
     padding-bottom: 4em;
 }
+
 .portrait img{
  
     max-width: 20em;
@@ -38,10 +92,8 @@ margin-top: 4em;
     flex:100%;
 }
 
-
 h2 {
 font-size: x-large;
-
 }
 
 h3 {
@@ -59,6 +111,7 @@ h3 {
     padding: 10px;
     margin: 10px;
 }
+
 .associates {
    display: flex;
    flex-direction: row;
@@ -140,43 +193,8 @@ align-self: flex-end;
     max-width: 30em;
 }
 
-.video-background {
-    background: #000;
-    position: fixed;
-    top: 0; right: 0; bottom: 0; left: 0;
-    z-index: -99;
-}
-.video-foreground,
-.video-background iframe {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    pointer-events: none;
-}
-#vidtop-content {
-    top: 0;
-}
-
-@media (min-aspect-ratio: 16/9) {
-    .video-foreground { height: 300%; top: -100%; }
-}
-@media (max-aspect-ratio: 16/9) {
-    .video-foreground { width: 300%; left: -100%; }
-}
-
-.navbackground {
-    background-color: rgba(170, 221, 150, 0.25);
-    width: auto;
-    border: 10px solid	#cc2d30;
-    border-radius: 2em;
-    padding: 10px;
-    margin: 10px;
-}
-
-.mainNav ul{
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
+.restingPlace a img:hover {
+border:5px solid white;
 }
 .mainFooter {
     background-color: rgba(170, 221, 150, 0.25);
@@ -184,5 +202,17 @@ align-self: flex-end;
     border: 10px solid	#cc2d30;
     border-radius: 2em;
     padding: 10px;
-    margin: 10px;  
+    margin: 10px;
+    font-size: larger;  
 }
+
+.mainFooter a:hover {
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    font-size: larger;
+    border:1px solid white;
+    padding: 0.5em;
+}
+
+
