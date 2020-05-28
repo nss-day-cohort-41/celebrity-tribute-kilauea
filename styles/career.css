@@ -1,20 +1,139 @@
+
+/* Below is the styling for the first section/row and image in the section */
+
+
 .main--intro {
     display: flex;
 }
+.mybody {
+    background-color:	#9bdbc1;
+
+}
+
+.mainLogo {
+    height: fit-content;
+}
 
 .main--image {
+    
+    height: auto;
     display: flex;
     flex: 1;
     /* align-content: flex-end; */
 }
 
 .main--image img {
-    height: auto;
+    width: 100%;
+    margin-left: .5em;
+    /* margin-right: 10%; */
 }
 
+
 .main--intro-content {
+    text-align: center;
     display: flex;
-    flex: 2;
+    flex: 1;
     flex-direction: column;
+    margin-left: 1em;
+    height: auto;
+    background-color:	#9bdbc1;
+    border: 10px solid	#cc2d30;
+    padding: 0em .5em;
 }
-/*  */
+
+.main--intro-content p {
+    font-size: 1.3em;
+}
+
+/* below is the styling for the middle row */
+
+.mid-row {
+    display: flex;
+    padding: .8em .1em;
+    align-content: center;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+/* styles for skills section */
+
+.main--skills {
+    flex: 1;
+    background-color:	#9bdbc1;
+    border: 5px solid	#cc2d30;
+    padding: 0em .5em;
+    margin: 0 .5em;
+
+}
+
+.main--skills p {
+    font-size: 1.3em;
+
+}
+
+/* styles for the works section */
+.main--works {
+    margin: 0 .5em;
+    flex: 1;
+    background-color:	#9bdbc1;
+    border: 5px solid	#cc2d30;
+    padding: 0em .5em;
+}
+
+/* third section in middle row  */
+
+.main--residence {
+    flex: 1;
+    width: 100%;
+    background-color:	#9bdbc1;
+    border: 5px solid	#cc2d30;
+    text-align: center;
+    margin: 0 .5em;
+    padding: 0em .5em;
+}
+
+/* last two sections and wrapper  */
+
+.bottom-row {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.main--collab {
+    flex: 1;
+    background-color:	#9bdbc1;
+    border: 5px solid	#cc2d30;
+    margin: 0 .5em;
+
+    padding: 0em .5em;
+}
+
+.main--awards {
+    flex: 1;
+    background-color:	#9bdbc1;
+    border: 5px solid	#cc2d30;
+    margin: 0 .5em;
+    padding: 0em .5em;
+}
+
+
+.main--subtitle {
+    text-align: center;
+}
+
+
+/* Below impacts all the list styling */
+
+.list {
+    list-style: none;
+    font-size: 1.3em;
+
+}
+
+.numbered--list {
+    list-style: none;
+    font-size: 1.3em;
+
+}
+
