@@ -1,19 +1,76 @@
+
+/* Below is the styling for the first section/row and image in the section */
+
+
 .main--intro {
     display: flex;
 }
 
+
 .main--image {
+    height: auto;
     display: flex;
     flex: 1;
     /* align-content: flex-end; */
 }
 
 .main--image img {
-    height: auto;
+    width: 100%;
+    margin-left: .5em;
+    /* margin-right: 10%; */
 }
 
+
 .main--intro-content {
+    text-align: center;
     display: flex;
     flex: 2;
     flex-direction: column;
+    margin-left: 1em;
+    height: auto;
 }
+
+/* below is the styling for the middle row */
+
+.mid-row {
+    display: flex;
+    padding: .8em .1em;
+    justify-content: center;
+}
+
+/* styles for skills section */
+
+.main--skills {
+    flex: 1;
+}
+
+/* styles for the works section */
+.main--works {
+    flex: 1;
+}
+
+/* third section in middle row  */
+
+.main--residence {
+    flex: 1;
+    width: 100%;
+}
+
+/* last two sections and wrapper  */
+
+.bottom-row {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.main--collab {
+    flex: 1;
+}
+
+.main--awards {
+    flex: 1;
+}
+
+
+
