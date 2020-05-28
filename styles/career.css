@@ -1,9 +1,13 @@
 
+
+
 /* Below is the styling for the first section/row and image in the section */
 
 
 .main--intro {
     display: flex;
+    justify-content: space-between;
+
 }
 .mybody {
     background-color:	#9bdbc1;
@@ -43,6 +47,7 @@
 
 .main--intro-content p {
     font-size: 1.3em;
+    
 }
 
 /* below is the styling for the middle row */
@@ -52,6 +57,7 @@
     padding: .8em .1em;
     align-content: center;
     text-align: center;
+    
     /* justify-content: center; */
 }
 
