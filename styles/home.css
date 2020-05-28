@@ -35,17 +35,20 @@ html, body {
 .navbackground {
     background-color: rgba(170, 221, 150, 0.25);
     width: auto;
-    border: 10px solid	#cc2d30;
+    border: 10px solid rgba(204, 45, 48, 0.6);
     border-radius: 2em;
     padding: 10px;
     margin: 10px;
 }   
 
+.mainNav {
+    font-size: larger;
+}
+
 .mainNav a:hover:not(.active) {
     background-color: black;
     color: white;
     opacity: 0.5;
-    font-size: larger;
     border:1px solid white;
     padding: 0.5em;
 }
@@ -53,6 +56,8 @@ html, body {
 .active {
     background-color: white;
     opacity: 0.5;
+    border:1px solid black;
+    padding: 0.5em;
 }
 
 #index {
@@ -199,7 +204,7 @@ border:5px solid white;
 .mainFooter {
     background-color: rgba(170, 221, 150, 0.25);
     width: auto;
-    border: 10px solid	#cc2d30;
+    border: 10px solid rgba(204, 45, 48, 0.6);
     border-radius: 2em;
     padding: 10px;
     margin: 10px;
@@ -210,7 +215,6 @@ border:5px solid white;
     background-color: black;
     color: white;
     opacity: 0.5;
-    font-size: larger;
     border:1px solid white;
     padding: 0.5em;
 }
