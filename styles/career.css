@@ -1,5 +1,16 @@
 
+.mynav {
+    background-color: rgba(170, 221, 150, 0.25);
+    width: auto;
+    border: 10px solid #cc2d30;
+    border-radius: 2em;
+    padding: 10px;
+    margin: 10px;
+}
+/* 
+@media  () {
 
+} */
 
 /* Below is the styling for the first section/row and image in the section */
 
