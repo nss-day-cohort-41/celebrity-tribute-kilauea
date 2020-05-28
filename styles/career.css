@@ -7,10 +7,18 @@
     padding: 10px;
     margin: 10px;
 }
-/* 
-@media  () {
 
-} */
+@media screen and (max-width: 701px)  {
+    .main--image img {
+        display: none;
+
+    }
+    .main--intro-content {
+        width: 100%;
+        
+    }
+
+}
 
 /* Below is the styling for the first section/row and image in the section */
 
