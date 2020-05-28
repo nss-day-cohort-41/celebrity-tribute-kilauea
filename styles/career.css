@@ -5,9 +5,17 @@
 .main--intro {
     display: flex;
 }
+.mybody {
+    background-color:	#9bdbc1;
 
+}
+
+.mainLogo {
+    height: fit-content;
+}
 
 .main--image {
+    
     height: auto;
     display: flex;
     flex: 1;
@@ -24,10 +32,17 @@
 .main--intro-content {
     text-align: center;
     display: flex;
-    flex: 2;
+    flex: 1;
     flex-direction: column;
     margin-left: 1em;
     height: auto;
+    background-color:	#9bdbc1;
+    border: 10px solid	#cc2d30;
+    padding: 0em .5em;
+}
+
+.main--intro-content p {
+    font-size: 1.3em;
 }
 
 /* below is the styling for the middle row */
@@ -44,11 +59,25 @@
 
 .main--skills {
     flex: 1;
+    background-color:	#9bdbc1;
+    border: 5px solid	#cc2d30;
+    padding: 0em .5em;
+    margin: 0 .5em;
+
+}
+
+.main--skills p {
+    font-size: 1.3em;
+
 }
 
 /* styles for the works section */
 .main--works {
+    margin: 0 .5em;
     flex: 1;
+    background-color:	#9bdbc1;
+    border: 5px solid	#cc2d30;
+    padding: 0em .5em;
 }
 
 /* third section in middle row  */
@@ -56,6 +85,11 @@
 .main--residence {
     flex: 1;
     width: 100%;
+    background-color:	#9bdbc1;
+    border: 5px solid	#cc2d30;
+    text-align: center;
+    margin: 0 .5em;
+    padding: 0em .5em;
 }
 
 /* last two sections and wrapper  */
@@ -68,14 +102,38 @@
 
 .main--collab {
     flex: 1;
+    background-color:	#9bdbc1;
+    border: 5px solid	#cc2d30;
+    margin: 0 .5em;
+
+    padding: 0em .5em;
 }
 
 .main--awards {
     flex: 1;
+    background-color:	#9bdbc1;
+    border: 5px solid	#cc2d30;
+    margin: 0 .5em;
+    padding: 0em .5em;
 }
+
 
 .main--subtitle {
     text-align: center;
 }
 
+
+/* Below impacts all the list styling */
+
+.list {
+    list-style: none;
+    font-size: 1.3em;
+
+}
+
+.numbered--list {
+    list-style: none;
+    font-size: 1.3em;
+
+}
 
