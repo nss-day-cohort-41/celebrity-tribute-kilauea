@@ -1,0 +1,32 @@
+
+img.muralPic{
+    width: 100%;
+    height: auto;
+}
+
+.mainHeaderNews{
+    vertical-align: text-bottom;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.newsDean{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.newsEvents{
+    font-style: oblique;
+    text-align-last: center;
+    font-size: 48px;
+}    s
+
+.deanQuote{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+
