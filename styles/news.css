@@ -4,13 +4,14 @@ img.muralPic{
     height: auto;
 }
 
-.mainHeaderNews{
-    vertical-align: text-bottom;
-}
 
 a{
     text-decoration: none;
     color: black;
+}
+
+a:hover{
+   background-color: goldenrod; 
 }
 
 .newsDean{
@@ -18,15 +19,30 @@ a{
 }
 
 .newsEvents{
-    font-style: oblique;
+    /* font-style: oblique; */
     text-align-last: center;
     font-size: 48px;
-}    s
+}    
 
-.deanQuote{
-    text-align: center;
+h5.deanQuote{
+    text-align-last: center;
     font-style: italic;
-    font-size: 18px;
+    font-size: 15px;
 }
 
+body.newsBorder{
+    margin:0;
+    padding: 0;
+    border:0px;
+    background-color: lightcyan; 
+}
 
+header.mainHeader{
+    background-color:white;
+}
+
+footer.mainNewsFooter ul li{
+    display: inline-flex;
+    list-style: none;
+    
+} 
