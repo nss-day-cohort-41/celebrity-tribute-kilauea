@@ -1,79 +1,62 @@
-# Nashville Software School Tribute Agency
+# NSS Kilauea Tribute to Dean Martin!
+Our website is dedicate to the great actor, comedian and 
+musician of his day, The King of Cool, Dean Martin.
 
-Welcome fans.
+## Navigation
+Using the Navigation panel on the top of the screen you can browse our digial museum all about Dean Martin AKA "Dino"! Each link on the Navigation panel opens another door into the life of Dino.
 
-Your first task as a reporter of the NSSTA is to compile a tribute report on one of the many artists we are considering as a potential honoree winner. Listed below is the information we need to be gathered. Each one of you will be responsible for building a web page to present this information to our judges for consideration.
-
-Keep in mind you should be practicing what you have learned so far in class. When you are building your site, make sure you are using semantic tags whenever possible and use Flexbox for styling instead of CSS frameworks such as Bootstrap or Materialize.
-
-## All pages should include:
-1. Navigation with links to the other pages of the report.
-2. Social Media links in the footer.
-3. Be sure to break each page into meaningful sections, include headings, and use bullet list where appropriate.
-4. Valid HTML. Run each page of HTML code through the html validator at [https://validator.w3.org/](https://validator.w3.org/).
-
-### Tips For A Good Usable Website
-1. Use acceptable conventions
-   * Logo positioned at top left
-   * Navigation across the top or down the left side
-2. Visual hierarchy
-   * Most important information is the most prominent
-3. Break pages up into defined sections
-   * Logically related content should be related visually
-4. That which is clickable should be obviously clickable.
-5. Eliminate distractions
-   * Use only two typefaces
-   * Limit color pallet (3 colors with black and white)
-   * Use a grid
-6. Support scanning (users don't read)
-   * Use plenty of headings
-   * Short paragraphs
-   * Bulleted lists
-7. Strive for consistency.
-
-#
-## Executive Summary
-
-This should be the first information displayed when the report is opened. It should contain the following components.
-
+### Home "Executive Summary" 
+Here you will find a basic overview of Dean Martin including :
 1. Known collaborators with the artist.
-2. A portrait of the artist. This component should have a photo and name.
+2. A portrait of the artist.
 3. List of known aliases.
-4. Country of residence.
+4. Country of his resting place.
+   - click the photo to see a google maps of his grave location.
 
-## Career
+As you browse this page, you will have the opporunity to see Dean Martin perform "Thats Amore" along side Jerry Lewis.
+   - To browse without music: Turn down your audio
 
-We want to see the artist's list of talents. This page should include the following components.
+### Career
+Here is an overview of Dean Martin's career which includes:
+1. Career Intro
+2. Skills
+3. Works
+4. Residences
+5. Collaborators
+6. Awards
+The Page includes three distinct rows wrapping each section. And lastly, an image of Dean Martin’s famous friends, Sammy Davis Jr. and Frank Sinatra.
 
-1. Short intro to artist.
-2. List of skills/talents.
-3. List of published works - minimum of 3 with images.
-4. List of places the artist has lived. Be sure to list begin and end times.
-5. Include any collaborators.
-6. List of awards.
-
-
-## Personal
-
+### Personal
 1. Birth date with country of origin.
-1. Birth name (if different than public name)
-1. Death date if applicable.
-1. Country of current residence.
-1. List of immediate family members (for example: spouse, children, siblings, parents) - minimum 3 with images.
-    1. For multiple spouses, show begin/end dates.
+2. Birth name (if different than public name)
+3. Death date if applicable.
+4. Country of current residence.
+5. List of immediate family members (for example: spouse, children, siblings, parents) - minimum 3 with images.
+   - For multiple spouses, show begin/end dates.
 
-## News Feed
+### News Feed
+1. Here you will find an image of Dean Martin in Steubenville, Ohio his birthplace
+2. A quote attributed to Dean Martin
+3. Event details here you find information on the yearly Dean Martin festival
+4. Festival Events here you will find details on specific event
+5. Sights to visit here you will be directed to historical Dean Martin sights
 
-We want to see a list of recent news that might be connected, in any way, to the artist and/or their estate. It should include the following components.
+## Footer
+At the bottom of our web site you can find links to Dino's Facebook, Twitter, Instagram, and Spotify.
+- Click the Spotify link and listen to more Dean Martin and his Collaborators.
 
-1. Recent events that might be connected to artist.
-1. Each event should include: related image, date, location, type of event, collaborators, and where the event occured or to purchase tickets.
+## Languages
+This digital museum was created using HTML & CSS code.
 
+## Contributors
+Executive Summary - Brett Stoudt
+Career Summary- Gavin Swofford
+Personal Info - Nick Glover
+News Feed - Erika Montijo
 
-## (If you have 5 team members) Extras Report
+### Contributing
+Contract original Contributors for a chance to add valuable information to our digital museum via GitHub.\
 
-1. List of online resources: offical website, Wikipedia, art galleries, tribute websites, etc.
-1. List of places to view or aquire works.
-1. List of business/organizations/volunteer with logo image.
-1. List of past or current tour/exhibit/show dates
+## License
+Nashville Software School Tribute Agency
 

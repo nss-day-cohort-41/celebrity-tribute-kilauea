@@ -1,0 +1,48 @@
+
+img.muralPic{
+    width: 100%;
+    height: auto;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+   background-color: goldenrod; 
+}
+
+.newsDean{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.newsEvents{
+    /* font-style: oblique; */
+    text-align-last: center;
+    font-size: 48px;
+}    
+
+h5.deanQuote{
+    text-align-last: center;
+    font-style: italic;
+    font-size: 15px;
+}
+
+body.newsBorder{
+    margin:0;
+    padding: 0;
+    border:0px;
+    background-color: lightcyan; 
+}
+
+header.mainHeader{
+    background-color:white;
+}
+
+footer.mainNewsFooter ul li{
+    display: inline-flex;
+    list-style: none;
+    
+} 
